@@ -18,6 +18,7 @@ shinyUI(fluidPage(
 
         # Show a plot of the generated distribution
     mainPanel(
+            h2("Covid daily new cases map (*1000)"),
             tabPanel("Order Locations", leafletOutput("map",width="90%", height="600px")),
     )
     
